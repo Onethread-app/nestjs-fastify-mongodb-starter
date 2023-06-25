@@ -59,9 +59,9 @@ This project includes a script that automates the creation of a new module with 
 
 2. Open a terminal in the project root directory.
 
-3. Run the script by typing `./generate-module.sh <module-name>`, replacing `<module-name>` with the name of the module you want to create.
+3. Run the script by typing `./generate_module.sh <module-name>`, replacing `<module-name>` with the name of the module you want to create.
 
-For example, if you want to create a new module named "order", you would type `./generate-module.sh order`. This will create a new directory under `src/modules/` named "order", with subdirectories for controllers, dto, models, repositories, and services. It will also generate an `order.module.ts`, `order.service.ts`, and `order.controller.ts` file in the appropriate directories.
+For example, if you want to create a new module named "order", you would type `./generate_module.sh order`. This will create a new directory under `src/modules/` named "order", with subdirectories for controllers, dto, models, repositories, and services. It will also generate an `order.module.ts`, `order.service.ts`, and `order.controller.ts` file in the appropriate directories.
 
 ## Editor Configuration
 
